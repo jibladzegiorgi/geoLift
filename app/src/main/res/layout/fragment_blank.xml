@@ -1,0 +1,152 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sliderback"
+    tools:context="ge.idevelopers.Lifti.app.BlankFragment">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fConteiner"
+    android:visibility="visible"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pic1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="120dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="პარტნიორები"
+            android:layout_marginTop="12dp"
+            android:textColor="#FFF"
+            />
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pic1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="120dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="პარტნიორები"
+                android:layout_marginTop="12dp"
+                android:textColor="#FFF"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pic1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="120dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="პარტნიორები"
+                android:layout_marginTop="12dp"
+                android:textColor="#FFF"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pic1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="120dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="პარტნიორები"
+                android:layout_marginTop="12dp"
+                android:textColor="#FFF"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</FrameLayout>
+
+
+
+    <!-- menu -->
+ <include
+        layout="@layout/activity_main"
+        android:id="@+id/gela"
+android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMenu"
+        android:layout_marginLeft="260dp"
+        android:orientation="vertical"
+        >
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/b"
+        android:layout_marginTop="5dp"
+            android:id="@+id/one"
+        />
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/b"
+        android:layout_marginTop="5dp"
+        android:id="@+id/two"
+        android:layout_below="@+id/one"
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/b"
+            android:layout_marginTop="5dp"
+            android:id="@+id/three"
+            android:layout_below="@+id/two"
+            />
+    </RelativeLayout>
+
+</FrameLayout>
